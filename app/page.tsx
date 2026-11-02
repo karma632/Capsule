@@ -39,7 +39,7 @@ export default function Home() {
             <button type="button" className="mx-auto flex h-12 w-full max-w-[34rem] items-center justify-center gap-3 rounded-full border border-black bg-white px-4 font-mono text-xs tracking-[0.01em] text-black transition-colors hover:bg-black hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black sm:h-14 sm:gap-4 sm:px-6 sm:text-sm"><AppleIcon /><span>Continue with Apple</span></button>
           </div>
 
-          <p className="mt-12 font-mono text-[0.55rem] uppercase tracking-[0.11em] text-[#707070] sm:mt-16 sm:text-sm sm:tracking-[0.15em]">Drop a note <span aria-hidden="true">→</span> set a date <span aria-hidden="true">→</span> get nudged</p>
+          <p className="capsule__meta mt-12 text-[0.55rem] uppercase tracking-[0.11em] text-[#707070] sm:mt-16 sm:text-sm sm:tracking-[0.15em]">Drop a note <span aria-hidden="true">→</span> set a date <span aria-hidden="true">→</span> get nudged</p>
         </div>
       </section>
     </main>

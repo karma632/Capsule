@@ -32,6 +32,10 @@ button { cursor: pointer; }
   animation: capsule-slide-in 800ms cubic-bezier(0.22, 1, 0.36, 1) 120ms both;
 }
 
+.capsule__meta {
+  font-family: var(--font-mono);
+}
+
 @keyframes capsule-slide-in {
   from {
     opacity: 0;
