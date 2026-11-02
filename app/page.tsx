@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main className="grid h-[100svh] max-h-[100svh] min-w-0 max-w-full grid-rows-[42%_58%] grid-cols-1 overflow-hidden bg-white text-black lg:min-h-screen lg:h-auto lg:max-h-none lg:grid-rows-none lg:grid-cols-2 lg:overflow-visible">
       <section className="relative flex min-h-0 min-w-0 flex-col justify-between overflow-hidden bg-black px-6 py-5 text-[#a6a6a6] sm:px-12 sm:py-7 lg:min-h-screen lg:px-24 lg:py-20">
-        <p className="capsule__typing font-mono text-xs font-medium tracking-[0.32em] sm:text-sm">CAPSULE</p>
+        <p className="font-mono text-xs font-medium tracking-[0.32em] sm:text-sm">CAPSULE</p>
         <div className="flex min-h-0 flex-1 items-center justify-center py-8 sm:py-10 lg:py-0"><CapsuleAnimation /></div>
         <p className="font-mono text-[0.68rem] tracking-[0.02em] sm:text-sm">Sealed today. Opened in <YearTicker />.</p>
       </section>
