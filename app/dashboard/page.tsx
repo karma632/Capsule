@@ -47,7 +47,7 @@ export default function DashboardPage() {
 
   return (
     <main className="min-h-screen bg-white text-black">
-      <header className="flex h-20 items-center justify-between border-b border-black/70 px-6 sm:px-12 lg:px-16">
+      <header className="fixed inset-x-0 top-0 z-50 flex h-20 items-center justify-between border-b border-black/70 bg-white px-6 sm:px-12 lg:px-16">
         <p className="font-mono text-[0.75rem] font-medium tracking-[0.4em]">CAPSULE</p>
         <div className="flex items-center gap-2 font-mono text-xs sm:gap-3">
           <button type="button" onClick={() => setNotificationsOn((current) => !current)} className={`rounded-full px-5 py-3 transition-colors ${notificationsOn ? "bg-black text-white" : "border border-black bg-white text-black"}`}>Notifications: {notificationsOn ? "on" : "off"}</button>
@@ -55,7 +55,7 @@ export default function DashboardPage() {
         </div>
       </header>
 
-      <div className="mx-auto grid max-w-[90rem] grid-cols-1 gap-12 px-6 py-12 sm:px-12 lg:grid-cols-[1fr_0.95fr] lg:gap-16 lg:px-16 lg:py-12">
+      <div className="mx-auto grid max-w-[90rem] grid-cols-1 gap-12 px-6 pb-12 pt-32 sm:px-12 lg:grid-cols-[1fr_0.95fr] lg:gap-16 lg:px-16 lg:py-32">
         <section className="max-w-[35rem]">
           <h1 className="font-display text-[clamp(3rem,5vw,5rem)] leading-[0.88] tracking-[-0.07em]">Bury something<br /><em>for later.</em></h1>
           <p className="mt-5 font-mono text-sm text-[#707070]">Signed in with Google.</p>
