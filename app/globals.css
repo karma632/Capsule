@@ -55,7 +55,7 @@ button { cursor: pointer; }
 
 @keyframes capsule-type {
   from { width: 0; }
-  to { width: 7ch; }
+  to { width: 9ch; }
 }
 
 @keyframes capsule-caret {
