@@ -24,13 +24,13 @@ export default function Home() {
   return (
     <main className="grid h-[100svh] max-h-[100svh] min-w-0 max-w-full grid-rows-[42%_58%] grid-cols-1 overflow-hidden bg-white text-black lg:min-h-screen lg:h-auto lg:max-h-none lg:grid-rows-none lg:grid-cols-2 lg:overflow-visible">
       <section className="relative flex min-h-0 min-w-0 flex-col justify-between overflow-hidden bg-black px-6 py-5 text-[#a6a6a6] sm:px-12 sm:py-7 lg:min-h-screen lg:px-24 lg:py-20">
-        <p className="font-mono text-xs font-medium tracking-[0.32em] sm:text-sm">CAPSULE</p>
+        <p className="capsule__typing font-mono text-xs font-medium tracking-[0.32em] sm:text-sm">CAPSULE</p>
         <div className="flex min-h-0 flex-1 items-center justify-center py-8 sm:py-10 lg:py-0"><CapsuleAnimation /></div>
         <p className="font-mono text-[0.68rem] tracking-[0.02em] sm:text-sm">Sealed today. Opened in <YearTicker />.</p>
       </section>
 
       <section className="flex min-h-0 min-w-0 items-center justify-center overflow-hidden px-6 py-7 sm:px-12 sm:py-9 lg:min-h-screen lg:px-24 lg:py-20">
-        <div className="w-full min-w-0 max-w-[42rem]">
+        <div className="capsule__content w-full min-w-0 max-w-[42rem]">
           <h1 className="max-w-[27rem] font-display text-[clamp(2.6rem,7vw,4.8rem)] leading-[0.88] tracking-[-0.07em]">Write to<br /><em>future you.</em></h1>
           <p className="mt-6 max-w-[36rem] font-mono text-xs leading-[1.75] tracking-[0.01em] text-[#6e6e6e] sm:mt-7 sm:text-sm sm:tracking-[0.02em]">Drop a note or a voice note, choose when it opens, and we&apos;ll nudge you when it&apos;s time.</p>
 
